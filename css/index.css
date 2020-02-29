@@ -1,0 +1,86 @@
+*{
+	margin: auto;
+	box-sizing: border-box;
+}
+.header{
+	border: 1px solid;
+	background-image: linear-gradient(to right, mediumvioletred, dodgerblue);
+	height: 658px;
+}
+.header img{
+	height: 60px;
+	margin-left: 20px;
+	margin-top: 20px;
+	position: absolute;
+}
+.header form{
+	font-family: sans-serif;
+	border-radius: 50px;
+	background: purple;
+	height: 500px;
+	margin-top: 80px;
+	width: 400px;
+	text-align: center;
+	border-radius: 15px;
+	border: none;
+	padding-top: 50px;
+	box-shadow: 2px 2px 2px 2px purple;
+}
+.header p{
+	color: white;
+}
+.header input{
+	width: 250px;
+	height: 50px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: serif;
+	font-weight: bold;
+}
+.header label{
+	border: 1px solid;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    border-radius: 10px;
+    background: mediumvioletred;
+    cursor: pointer;
+    border: none;
+}
+.header label:hover{
+	background-image: linear-gradient(to left, mediumvioletred, dodgerblue);
+	transition: 2s;
+}
+#id1{
+	margin-top: 10px;
+	border-radius: 10px;
+}
+#name{
+	margin-top: 10px;
+}
+#fiil-in{
+	margin-top: 10px;
+	width: 200px;
+	border-radius: 10px;
+}
+#midname{
+	margin-top: 10px;
+}
+#id2{
+	border-radius: 10px;
+	margin-top: 10px;
+    width: 200px;
+}
+#lname{
+	margin-top: 10px;
+}
+#id3{
+	border-radius: 10px;
+	width: 200px;
+	margin-top: 10px;
+	padding-bottom: 10px;
+}

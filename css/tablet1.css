@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1150px){
+		*{
+		margin: auto;
+		box-sizing: border-box;
+}
+	    #Bimage{
+	    width: 350px;
+	    margin-top: 170px;
+	    float: right;
+	    right: 4%;
+    	position: absolute;	
+}
+       #top {
+       	margin-top: 10px;
+       	font-size: 37px;
+       }
+       #label{
+       	margin-top: 460px;
+       	margin-left: 85px;
+       }
+       #goto{
+       	   float: left;
+       	   position: absolute;
+       	   left: -1%;
+       	   margin-top: 445px;
+       }
+      
+}

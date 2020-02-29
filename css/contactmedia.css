@@ -1,0 +1,77 @@
+@media  screen and (max-width: 580px){
+  *{
+	margin: auto;
+	box-sizing: border-box;
+}
+body{
+	background: red;
+}
+.header{
+	height: 70px;
+}
+.header img{
+	width: 150px;
+	margin-top: 15px;
+	float: left;
+	left: 3%;
+}
+.header ul{
+	padding-top: 45px;
+	float: right;
+	right: 5%;
+	display: none;
+	position: absolute;
+}
+.header li{
+	padding-left: 20px;
+	font-size: 18px;
+	display: inline;
+}
+.header a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover{
+	background: mediumblue;
+	color: white;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-radius: 12px;
+}
+.myHeader h2{
+	margin-left: 10px;
+}
+.myHeader hr{
+	margin-left: 10px;
+}
+.myHeader p{
+	margin-left: 10px;
+}
+#ig{
+	width: 200px;
+	margin-left: 400px;
+}
+#fb{
+	width: 200px;
+}
+.footer h2{
+	margin-left: 10px;
+}
+.footer hr{
+     margin-left: 20px;
+}
+.footer img{
+	height: 90px;
+	margin-left: 20px;
+}
+.subheader-5 a:hover{
+	background: mediumblue;
+}
+.images{
+	height: 20px;
+	float: right;
+	right: 5%;
+	position: absolute;
+}
+}

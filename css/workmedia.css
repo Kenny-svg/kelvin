@@ -1,0 +1,71 @@
+@media  screen and (max-width: 768px){
+	*{
+		margin: auto;
+		box-sizing: border-box;
+	}
+	.header img{
+		float: left;
+		left: 2%;
+		position: absolute;
+	}
+.header ul{
+	padding-top: 15px;
+	float: right;
+	position: absolute;
+	right: 3%;
+}
+.header li{
+	padding-left: 20px;
+	font-size: 18px;
+	display: inline;
+}
+.header a{
+	font-size: 17px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover{
+	background: mediumblue;
+	color: white;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-radius: 12px;
+}.myHeader h2{
+	margin-left: 10px;
+}
+.myHeader hr{
+	margin-left: 10px;
+}
+.myHeader p{
+	margin-left: 10px;
+}
+#ig{
+	width: 200px;
+	margin-left: 400px;
+}
+#fb{
+	width: 200px;
+}
+.footer h2{
+	margin-left: 10px;
+}
+.footer hr{
+     margin-left: 20px;
+}
+.footer img{
+	height: 90px;
+	margin-left: 20px;
+}
+.images{
+	height: 30px;
+	margin-left: 320px;
+}
+.picture{
+	margin-left: -20px;
+	margin-top: 20px;
+}
+#photo{
+	margin-left: -220px;
+}
+}
+

@@ -1,0 +1,101 @@
+*{
+	margin: auto;
+	 box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+}
+.header{
+	background-image: linear-gradient(to right, mediumblue, dodgerblue);
+	height: 70px;
+}
+.navbar{
+	display: none;
+}
+.header img{
+	width: 200px;
+	float: left;
+	left: 2%;
+	margin-top: 10px;
+	position: absolute;
+}
+.header ul{
+	padding-top: 25px;
+	float: right;
+	right: 5%;
+	position: absolute;
+}
+.header li{
+	padding-left: 20px;
+	font-size: 18px;
+	display: inline;
+}
+.header a{
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+}
+.header a:hover{
+	background: mediumblue;
+	color: white;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-radius: 12px;
+}
+.myHeader{
+    height: 240px;
+}
+.myHeader h2{
+	padding-top: 30px;
+    margin-left: 50px;
+}
+.myHeader hr{
+	width: 30px;
+	height: 4px;
+	margin-top: 20px;
+	background: black;
+	margin-left: 50px;
+}
+.myHeader p{
+	margin-left: 50px;
+	padding-top: 20px;
+	color: grey;
+	font-size: 20px;
+}
+.subheader-5{
+	margin-top: 140px;
+	padding-top: 30px;
+	height: 150px;
+	background: dodgerblue;
+}
+.subheader-5 h6{
+	font-size: 22px;
+	color: white;
+	margin-left: 50px;
+}
+.subheader-5 p{
+	padding-top: 10px;
+	margin-left: 50px;
+	color: white;
+	font-size: 20px;
+}
+.subheader-5 button{
+	background: blue;
+	color: white;
+	border: none;
+	font-size: 17px;
+	height: 35px;
+	border-radius: 2px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: 50px;
+	cursor: pointer;
+}
+.images{
+	height: 50px;
+	margin-top: 15px;
+    float: right;
+    right: 5%;
+    position: absolute;
+
+}

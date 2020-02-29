@@ -1,0 +1,124 @@
+@media screen and (max-width: 500px){
+	*{
+		margin: auto;
+		box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+.header{
+	z-index: 2;
+}
+.header a{
+	display: none;
+}
+.header img{
+    width: 150px;
+	margin-top: 8px;
+	float: left;
+	left: 2%;
+	position: absolute;
+}
+.myHeader{
+	font-size: 13px;
+}
+.myHeader h2{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.myHeader hr{
+	margin-left: 20px;
+}
+#myHeader{
+	font-size: 16px;
+	margin-left: 10px;
+}
+#fb{
+    height: 100px;
+    float: left;
+    position: absolute;
+    left: 3%;
+}
+#ig{
+	float: right;
+	position: absolute;
+	right: 2%;
+	height: 100px;
+}
+.footer{
+	margin-top: -20px;
+	height: 250px;
+}
+.footer h2{
+	font-size: 20px;
+	margin-left: 20px;
+}
+.footer hr{
+	margin-left: 20px;
+}
+.footer img{
+	margin-top: 40px;
+	height: 55px;
+	margin-left: 0px;
+}
+.images{
+	float: right;
+	right: 5%;
+	position: absolute;
+}
+.navbar{ 
+	height: 300px;
+    width: 400px;
+    display: none;
+    position: fixed;
+    background-color: whitesmoke;
+}
+.navbar a{
+	color: purple;
+	text-decoration: none;
+}
+.navbar a:hover{
+    padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	border-radius: 5px;
+	transition: 1s;
+	font-size: 20px;
+	background-image: linear-gradient(to right, purple,mediumvioletred);
+	color: white;}
+.navbar ul{
+	margin-top: 50px;
+}
+.navbar li{
+	padding-bottom: 13px;
+    list-style-type: none;
+}
+.respnav span{
+    border: 1px solid white;
+	height: 5px;
+	width: 35px;
+	background: white;
+	display: block;
+	margin-top: 4px;
+	position: relative;
+	border: none;
+	cursor: pointer;
+	z-index: 1;
+}
+.respnav{
+	margin-top: 45px;
+	margin-left: 270px;
+}
+#times{
+	color: red;
+	font-size: 30px;
+	margin-left: 350px;
+	cursor: pointer;
+	padding-top: 5px;
+}
+#photo{
+	margin-left: -230px;
+}
+}

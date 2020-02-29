@@ -1,0 +1,37 @@
+@media only screen and (max-width: 430px){
+	.myHeader{
+		height: 300px;
+	}
+	.myHeader h2{
+		margin-left: 10px;
+	}
+	.myHeader hr{
+		margin-left: 10px;
+	}
+	.myHeader p{
+		padding-top: 90px;
+	}
+	#fb{
+		margin-top: 50px;
+		float: left;
+		left: 28%;
+		position: absolute;
+	}
+	#ig{
+		float: right;
+		right: 25%;
+		position: absolute;
+		margin-top: 300px;
+	}
+	.navbar{ 
+	height: 250px;
+    width: 345px;
+    display: none;
+    left: 3%;
+    position: fixed;
+    margin-top: 60px;
+    background-color: black
+}
+#times{
+	margin-left: 290px;
+}

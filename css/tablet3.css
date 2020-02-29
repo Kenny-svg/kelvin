@@ -1,0 +1,54 @@
+@media only screen and (max-width: 390px){
+	#top{
+        font-size: 23px;
+	}
+	#dig{
+        font-size: 17px;
+        margin-left: 10px;
+	}
+	#goto{
+		margin-top: 350px;
+	}
+	#label{
+		margin-top: 365px;
+	}
+	.subheader p{
+		font-size: 17px;
+	}
+	.subheader-1 p{
+		font-size: 17px;
+	}
+	.subheader-2 p{
+		font-size: 17px;
+	}
+	.subheader-2 img{
+		margin-top: 10px;
+		height: 80px;
+	}
+	.subheader-3 p{
+		font-size: 17px;
+	}
+	.subheader-3 img{
+		margin-top: 10px;
+		height: 80px;
+	}
+	.subheader-4 p{
+		font-size: 17px;
+	}
+	.subheader-4 img{
+		margin-top: 10px;
+		height: 80px;
+	}
+	.navbar{ 
+	height: 250px;
+    width: 345px;
+    display: none;
+    left: 3%;
+    position: fixed;
+    margin-top: 60px;
+    background-color: black;
+	}
+	#times{
+		margin-left: 300px;
+	}
+}
